@@ -38,7 +38,7 @@ variable "network_security_group_list" {
   description = "List of security_rule objects representing security rules, as defined below."
   type        = map(any)
   default = {
-    "AllowHTTPAndHTTPS" = { priority = "1001", direction = "Inbound", access = "Allow", protocol = "Tcp", source_port_range = "*", destination_port_range = "80,443", source_address_prefix = "*", destination_address_prefix = "*" },
+    "AllowHTTPAndHTTPS" = { priority = "1001", direction = "Inbound", access = "Allow", protocol = "Tcp", source_port_range = "*", destination_port_range = "80,443", source_address_prefix = "192.168.1.0/24", destination_address_prefix = "10.1.0.0/16" },
   }
 }
 variable "associate_with_subnet" {
