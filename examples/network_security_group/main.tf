@@ -5,7 +5,7 @@ features {}
 module "example_nsg" {
   source  = "Think-Cube/network-security-group/azure"
   version = "1.0.0"
-  resource_group_name = "test"
+  resource_group_name = "dev-test-weu-rg"
   environment = "dev" 
   region = "weu"
   resource_group_location = "West Europe"
