@@ -4,23 +4,23 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.4 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.105.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 3.106.1 |
 
 #### Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.105.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.106.1 |
 
 #### Resources
 
 | Name | Type |
 |------|------|
-| [azurerm_network_security_group.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.105.0/docs/resources/network_security_group) | resource |
-| [azurerm_network_security_rule.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.105.0/docs/resources/network_security_rule) | resource |
-| [azurerm_subnet_network_security_group_association.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.105.0/docs/resources/subnet_network_security_group_association) | resource |
-| [azurerm_client_config.current](https://registry.terraform.io/providers/hashicorp/azurerm/3.105.0/docs/data-sources/client_config) | data source |
-| [azurerm_resource_group.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.105.0/docs/data-sources/resource_group) | data source |
+| [azurerm_network_security_group.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.106.1/docs/resources/network_security_group) | resource |
+| [azurerm_network_security_rule.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.106.1/docs/resources/network_security_rule) | resource |
+| [azurerm_subnet_network_security_group_association.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.106.1/docs/resources/subnet_network_security_group_association) | resource |
+| [azurerm_client_config.current](https://registry.terraform.io/providers/hashicorp/azurerm/3.106.1/docs/data-sources/client_config) | data source |
+| [azurerm_resource_group.main](https://registry.terraform.io/providers/hashicorp/azurerm/3.106.1/docs/data-sources/resource_group) | data source |
 
 #### Inputs
 
