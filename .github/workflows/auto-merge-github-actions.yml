@@ -5,7 +5,7 @@ on:
       - opened
       - synchronize
 permissions:
-  contents: write
+  contents: write-all
   pull-requests: write    
 jobs:
   auto-merge:
